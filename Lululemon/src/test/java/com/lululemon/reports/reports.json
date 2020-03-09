@@ -1,0 +1,710 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10368398400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#Given User initialize the browser"
+              }
+            ],
+            "line": 5,
+            "name": "User enter the lululemon url",
+            "match": {
+              "location": "StepDefinition.user_enter_the_lululemon_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Create Account functionality",
+        "description": "",
+        "id": "lulelemon-website-testing-functionality;create-account-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6274948000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the sign in button",
+            "match": {
+              "location": "StepDefinition.user_click_the_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 921076400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User create an account with email id",
+            "match": {
+              "location": "StepDefinition.user_create_an_account_with_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269588700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User create a password for the account",
+            "match": {
+              "location": "StepDefinition.user_create_a_password_for_the_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3963002200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click the create an account button",
+            "match": {
+              "location": "StepDefinition.user_click_the_create_an_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 327376600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User check whether the email already in use header is displayed",
+            "match": {
+              "location": "StepDefinition.user_check_whether_the_email_already_in_use_header_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@01"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2463645300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#Given User initialize the browser"
+              }
+            ],
+            "line": 5,
+            "name": "User enter the lululemon url",
+            "match": {
+              "location": "StepDefinition.user_enter_the_lululemon_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Signin functionality",
+        "description": "",
+        "id": "lulelemon-website-testing-functionality;signin-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5153155400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the sign in button",
+            "match": {
+              "location": "StepDefinition.user_click_the_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 463990500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter the email id",
+            "match": {
+              "location": "StepDefinition.user_enter_the_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376156000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter the password",
+            "match": {
+              "location": "StepDefinition.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4602622700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click the signin button",
+            "match": {
+              "location": "StepDefinition.user_click_the_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3821828700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User logout from the application",
+            "match": {
+              "location": "StepDefinition.user_logout_from_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@02"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2228352000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#Given User initialize the browser"
+              }
+            ],
+            "line": 5,
+            "name": "User enter the lululemon url",
+            "match": {
+              "location": "StepDefinition.user_enter_the_lululemon_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Forget Password functionality",
+        "description": "",
+        "id": "lulelemon-website-testing-functionality;forget-password-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4464785601,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click the sign in button",
+            "match": {
+              "location": "StepDefinition.user_click_the_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3527651800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click the forget password link",
+            "match": {
+              "location": "StepDefinition.user_click_the_forget_password_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406796001,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User the email id for reseting the password",
+            "match": {
+              "location": "StepDefinition.user_the_email_id_for_reseting_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4146614599,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click the reset button",
+            "match": {
+              "location": "StepDefinition.user_click_the_reset_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@03"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1893856000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#Given User initialize the browser"
+              }
+            ],
+            "line": 5,
+            "name": "User enter the lululemon url",
+            "match": {
+              "location": "StepDefinition.user_enter_the_lululemon_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Header visibility",
+        "description": "",
+        "id": "lulelemon-website-testing-functionality;header-visibility",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 796913800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User check whether the primary header is displayed",
+            "match": {
+              "location": "StepDefinition.user_check_whether_the_primary_header_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@04"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2350102800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#Given User initialize the browser"
+              }
+            ],
+            "line": 5,
+            "name": "User enter the lululemon url",
+            "match": {
+              "location": "StepDefinition.user_enter_the_lululemon_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Place order functionality",
+        "description": "",
+        "id": "lulelemon-website-testing-functionality;place-order-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5617791500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User click the sign in button",
+            "match": {
+              "location": "StepDefinition.user_click_the_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 418705000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enter the email id",
+            "match": {
+              "location": "StepDefinition.user_enter_the_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402333400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User enter the password",
+            "match": {
+              "location": "StepDefinition.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3468616400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click the signin button",
+            "match": {
+              "location": "StepDefinition.user_click_the_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17109300,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.lululemon.stepdefinition.StepDefinition.user_enter_the_product_in_the_search_box(StepDefinition.java:102)\r\n\tat ✽.Then User enter the product in the search box(C:/Users/Ammu/eclipse-workspace/Lululemon/src/test/resource/com/lululemon/feature/lululemon.feature:40)\r\n",
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "User enter the product in the search box",
+            "match": {
+              "location": "StepDefinition.user_enter_the_product_in_the_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User select the product",
+            "match": {
+              "location": "StepDefinition.user_select_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User select the colour of the product",
+            "match": {
+              "location": "StepDefinition.user_select_the_colour_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User select the size of the product",
+            "match": {
+              "location": "StepDefinition.user_select_the_size_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User click the add to bag button",
+            "match": {
+              "location": "StepDefinition.user_click_the_add_to_bag_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User click the check out button",
+            "match": {
+              "location": "StepDefinition.user_click_the_check_out_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User select the country",
+            "match": {
+              "location": "StepDefinition.user_select_the_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User enter the first name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_first_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User enter the last name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "User enter the shipping address",
+            "match": {
+              "location": "StepDefinition.user_enter_the_shipping_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "User enter the city",
+            "match": {
+              "location": "StepDefinition.user_enter_the_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "User enter the country zip code",
+            "match": {
+              "location": "StepDefinition.user_enter_the_country_zip_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "User enter the phone number",
+            "match": {
+              "location": "StepDefinition.user_enter_the_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "User enter the shipping address nick name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_shipping_address_nick_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "User click the save address to my account button",
+            "match": {
+              "location": "StepDefinition.user_click_the_save_address_to_my_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User enter the card name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_card_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "User enter the card number",
+            "match": {
+              "location": "StepDefinition.user_enter_the_card_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "User enter the security code of the card",
+            "match": {
+              "location": "StepDefinition.user_enter_the_security_code_of_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "User enter the expiry month of the card",
+            "match": {
+              "location": "StepDefinition.user_enter_the_expiry_month_of_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User enter the expiry year of the card",
+            "match": {
+              "location": "StepDefinition.user_enter_the_expiry_year_of_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User enter the nick name for the card",
+            "match": {
+              "location": "StepDefinition.user_enter_the_nick_name_for_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "User click the same as shipping address",
+            "match": {
+              "location": "StepDefinition.user_click_the_same_as_shipping_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "User click the continue to review button",
+            "match": {
+              "location": "StepDefinition.user_click_the_continue_to_review_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@05"
+          }
+        ]
+      }
+    ],
+    "name": "Lulelemon website testing functionality",
+    "description": "",
+    "id": "lulelemon-website-testing-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/Ammu/eclipse-workspace/Lululemon/src/test/resource/com/lululemon/feature/lululemon.feature"
+  }
+]

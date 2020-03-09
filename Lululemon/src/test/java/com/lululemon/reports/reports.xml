@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="68.745417">
+<testcase classname="Lulelemon website testing functionality" name="Create Account functionality" time="22.12439">
+<system-out><![CDATA[When User enter the lululemon url...........................................passed
+Then User click the sign in button..........................................passed
+And User create an account with email id....................................passed
+And User create a password for the account..................................passed
+Then User click the create an account button................................passed
+Then User check whether the email already in use header is displayed........passed
+]]></system-out>
+</testcase>
+<testcase classname="Lulelemon website testing functionality" name="Signin functionality" time="16.881399">
+<system-out><![CDATA[When User enter the lululemon url...........................................passed
+Then User click the sign in button..........................................passed
+And User enter the email id.................................................passed
+And User enter the password.................................................passed
+Then User click the signin button...........................................passed
+Then User logout from the application.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Lulelemon website testing functionality" name="Forget Password functionality" time="14.7742">
+<system-out><![CDATA[When User enter the lululemon url...........................................passed
+Then User click the sign in button..........................................passed
+And User click the forget password link.....................................passed
+And User the email id for reseting the password.............................passed
+Then User click the reset button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Lulelemon website testing functionality" name="Header visibility" time="2.69077">
+<system-out><![CDATA[When User enter the lululemon url...........................................passed
+Then User check whether the primary header is displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Lulelemon website testing functionality" name="Place order functionality" time="12.274658">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.lululemon.stepdefinition.StepDefinition.user_enter_the_product_in_the_search_box(StepDefinition.java:102)&#13;&#10;&#9;at ✽.Then User enter the product in the search box(C:/Users/Ammu/eclipse-workspace/Lululemon/src/test/resource/com/lululemon/feature/lululemon.feature:40)&#13;&#10;"><![CDATA[When User enter the lululemon url...........................................passed
+Then User click the sign in button..........................................passed
+And User enter the email id.................................................passed
+And User enter the password.................................................passed
+Then User click the signin button...........................................passed
+Then User enter the product in the search box...............................failed
+Then User select the product................................................skipped
+And User select the colour of the product...................................skipped
+And User select the size of the product.....................................skipped
+And User click the add to bag button........................................skipped
+And User click the check out button.........................................skipped
+And User select the country.................................................skipped
+Then User enter the first name..............................................skipped
+And User enter the last name................................................skipped
+And User enter the shipping address.........................................skipped
+And User enter the city.....................................................skipped
+And User enter the country zip code.........................................skipped
+And User enter the phone number.............................................skipped
+And User enter the shipping address nick name...............................skipped
+Then User click the save address to my account button.......................skipped
+And User enter the card name................................................skipped
+And User enter the card number..............................................skipped
+And User enter the security code of the card................................skipped
+And User enter the expiry month of the card.................................skipped
+And User enter the expiry year of the card..................................skipped
+And User enter the nick name for the card...................................skipped
+Then User click the same as shipping address................................skipped
+Then User click the continue to review button...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.lululemon.stepdefinition.StepDefinition.user_enter_the_product_in_the_search_box(StepDefinition.java:102)
+	at ✽.Then User enter the product in the search box(C:/Users/Ammu/eclipse-workspace/Lululemon/src/test/resource/com/lululemon/feature/lululemon.feature:40)
+]]></failure>
+</testcase>
+</testsuite>
